@@ -2,5 +2,6 @@ header.header_page {
   font-size: 2rem;
   height: 8rem;
   background: $back-color;
-  @include border-radius(5px);
+  @include border-radius(15px);
+  @include box-shadow(.5rem, .5rem, 1rem, $color);
 }
