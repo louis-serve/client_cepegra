@@ -1,7 +1,7 @@
-@font-face {
-    font-family: "Bebas Neue";
-    src: url("./assets/fonts/BebasNeue-Regular.ttf") format("ttf"); // adapter l'url en fonction du nom de votre fichier
-  }
+@import 'sass/_variables.scss';
+@import 'sass/_header.scss';
+
+
 $color: red;
 body {
     background-color: $color;
