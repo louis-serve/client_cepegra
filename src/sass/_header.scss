@@ -1,5 +1,6 @@
-header.page_header {
+header.header_page {
   font-size: 2rem;
   height: 8rem;
   background: $back-color;
+  @include border-radius(5px);
 }
